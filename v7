@@ -42,7 +42,7 @@ local Configs ={
 --
 
 local AsuraX = {
-ScreenGui = Instance.new("ScreenGui", game:GetService("CoreGui"));
+ScreenGui = Instance.new("ScreenGui"), --game:GetService("CoreGui"));
  MainFrame = Instance.new("Frame"),
  TextLabelTextbox = Instance.new("TextLabel"),
  UICorner = Instance.new("UICorner"),
